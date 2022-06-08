@@ -146,7 +146,7 @@
             background-color: #f2f2f2;
         }
 
-        .laptops-banner {
+        .laptops-banner,.laptop-desc {
             width: 100%;
             max-width: 560px;
             margin: 0 auto;
@@ -154,8 +154,18 @@
             flex-direction: row;
             justify-content: center;
             gap: 20px;
+        }
+        
+        .icon-flex {
+            display: flex;
+            align-items: center;
+        }
 
-        } 
+        .laptop-icons {
+            display: flex;
+            flex-direction: row;
+        }
+
              
             
             
@@ -362,6 +372,59 @@
                             </td>
                                 
                         </tr>
+
+                        <tr class="laptop-desc">
+                            <td>
+                                <img src="/icons/go2_colors.jpg" alt="Go2 Colors" title="Go2 Colors" width="290">
+                            </td>
+                            <td>
+                                <img src="/icons/pro8_colors.jpg" alt="Pro8 Colors" title="Pro8 Colors" width="290">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <table class="laptop-icons" width="100%" align="center">
+                                    <tr>
+                                        <td>
+                                            
+                                        </td>
+                                        <td class="icon-flex">
+                                            <img src="/icons/pc_icon.jpg" alt="pc icon" title="Pc Icon">
+                                            <span>12.4”</span>
+                                        </td>
+                                        <td class="icon-flex">
+                                            <img src="/icons/processor_icon.jpg" alt="processor icon" title="Processor Icon">
+                                            <span>11th Gen Intel® Core™ i5</span>
+                                        </td>
+                                        <td class="icon-flex">
+                                            <img src="/icons/weight_icon.jpg" alt="weight icon" title="Weight Icon">
+                                            <span>2.48 lbs.</span>
+                                        </td>
+                                        <td class="icon-flex">
+                                            <img src="/icons/connector_icon.jpg" alt="connector icon" title="Connector Icon">
+                                            <span>11th Gen Intel® Core™ i5</span>
+                                        </td>
+                                        <td class="icon-flex">
+                                            <img src="/icons/battery_icon.jpg" alt="battery icon" title="Battery Icon">
+                                            <span>11th Gen Intel® Core™ i5</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="icon-flex">
+                                            <img src="/icons/pc_icon.jpg" alt="pc icon" title="Pc Icon">
+                                            <span>12.4”</span>
+                                        </td>
+                                    </tr>
+    
+
+                                </table>
+                                
+                            </td>
+                            
+                        </tr>
+                            
                     </table>
 
 
