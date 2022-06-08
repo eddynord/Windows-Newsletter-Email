@@ -20,7 +20,9 @@
 
         .main,
         .banner-section,
-        .section-a {
+        .section-a,
+        .compare,
+        .laptops {
             width: 100%;
             max-width: 640px;
             margin: 0 auto;
@@ -114,9 +116,59 @@
         }
 
         .pro8-section {
+            padding-top: 75px;
+            padding-bottom: 90px;
             background-color: #f4eece;
         }
             
+
+        .pro8-section a,
+        .pro8-section span {
+            color: #5a463f;
+            text-decoration: none;
+        }
+
+        .pro8-btn {
+            padding-top: 50px;
+        }
+
+        .pro8-btn a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 700;
+            background-color: #5a463f;
+            padding: 15px 35px;
+            border-radius: 8px;
+        }
+
+        .compare,
+        .laptops {
+            background-color: #f2f2f2;
+        }
+
+        .laptops-banner {
+            width: 100%;
+            max-width: 560px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+
+        } 
+             
+            
+            
+            
+            
+            
+            
+
+            
+
+        
+
+        
            
 
        
@@ -254,12 +306,65 @@
                         </tr>
 
                         <tr>
-                            <td>
+                            <td style="padding-top:50px;">
                                 <a href="#"><img src="/banner/third_banner.jpg" alt=""></a>
                             </td>
                         </tr>
 
+                        <tr align="center" >
+                            <td style="padding-top: 50px;">
+                                <a href="#"><h1>Like pen and paper, but better.</h1></a>
+                            </td>
+                        </tr>
+
+                        <tr align="center">
+                            <td>
+                                <span>Surface Pro 8 combines the power of a laptop with the flexibility 
+                                    of a tablet, with our <br> iconic Kickstand, larger 13" touchscreen, and 
+                                    detachable Keyboard with built-in Slim<br>Pen storage and charging.<sup>2</sup></span>
+                            </td>
+                        </tr>
+
+                        <tr align="center">
+                            <td class="pro8-btn">
+                                <a href="#">Shop Surface Pro 8</a>
+                            </td>
+                        </tr>
+
                     </table>
+
+                    <table class="compare" align="center">
+                        <tr>
+                            <td align="center">
+                                <a href="#"><h1>Compare and choose</h1></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                                <span>See every feature, or just the ones you need, across our entire family of laptops.</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="laptops">
+                        <tr class="laptops-banner">
+                            <td align="center" style="background-color: #ffffff;">
+                                <img src="/banner/surface_go2.jpg" alt="Surface Go2" title="Surface Go2" width="290">
+                                <h2>Surface Laptop Go 2</h2>
+                                <span>The lightest Surface Laptop,<br>featuring a 12.4-inch touchscreen.<sup>3</sup></span>
+                            </td>
+                                
+                            <td align="center" style="background-color: #ffffff;">
+                                <img src="/banner/surface_pro8.jpg" alt="Surface Pro8" title="Surface Pro8" width="290">
+                                <h2>Surface Pro 8</h2>
+                                <span>Mark up, sketch, edit, at whatever<br>angle you need on the advanced PixelSense™ Flow touchscreen.</span>
+                            </td>
+                                
+                        </tr>
+                    </table>
+
+
 
                        
 
